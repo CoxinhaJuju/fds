@@ -15,7 +15,7 @@ export class AppComponent {
   apiURL: string;
 
   constructor(private http: HttpClient) {
-    this.apiURL = 'https://apitarefasdiego243262-03015b251eb8.herokuapp.com/';
+    this.apiURL = 'https://apitarefasdiego243262-03015b251eb8.herokuapp.com/api/getall';
     this.READ_tarefas();
   }
 
